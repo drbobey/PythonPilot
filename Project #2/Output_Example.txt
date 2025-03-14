@@ -1,0 +1,24 @@
+--- Online Store Discount Calculator ---
+
+What is your name? 
+> Alex
+
+What is your membership type? (Regular, Premium, VIP)
+> VIP
+VIP membership detected. Applying 30% discount.
+
+Enter the total amount spent:
+> 550
+High spender detected! Additional 10% discount applied.
+
+--- Online Store Receipt ---
+Name: Alex
+Membership Type: VIP
+Total Spent: $550
+Membership Discount: 30%
+Extra Discount: 10%
+--------------------------
+Total Discount: 40%
+Final Amount to Pay: $330.00
+--------------------------
+Thank you for shopping with us!
