@@ -1,0 +1,13 @@
+# Example_Output.txt (Sample Session)
+# Welcome to the Dice Racing Game!
+# Player 1: John
+# Player 2: Sarah
+# Scores: John - 0 | Sarah - 0
+# John, press Enter to roll...
+# 🎲 John rolled a 5! New score: 5
+# Sarah, press Enter to roll...
+# 🎲 Sarah rolled a 6! Extra roll awarded!
+# 🎲 Sarah rolled a 3! New score: 9
+# ... (continues until someone reaches 20)
+# 🎉 Sarah wins the race with 21 points!
+# Game Over.
