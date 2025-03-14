@@ -64,6 +64,7 @@ Format Example: "So, <name_var>, you ordered <drink_var>, <entrée_var>, and <de
 Display the receipt stored in Task 3.
 Print a final thank-you message.
 Format Example: "Thank you for dining at Python Café, <name_var>! Enjoy your meal!"
+
 Collaboration & Integration Guide
 Each task depends on the previous one, so ensure your variables are consistent across files.
 The person working on Task 3 should confirm that the receipt formatting matches the final print in Task 4.
