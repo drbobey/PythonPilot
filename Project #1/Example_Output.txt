@@ -1,0 +1,41 @@
+Welcome to Python Café!
+What is your name? Aaron
+Hi Aaron, here is our menu!
+
+Drinks:
+  Coffee - $5
+  Tea - $5
+  Juice - $5
+
+Entrées:
+  Sandwich - $15
+  Salad - $15
+  Pasta - $15
+
+Desserts:
+  Cake - $10
+  Ice Cream - $10
+  Pie - $10
+
+Please enter your selections exactly as shown in the menu.
+What would you like for your drink? Coffee
+What would you like for your entrée? Salad
+Finally, what would you like for dessert? Cake
+
+So, Aaron, you ordered Coffee, Salad, and Cake.
+
+--------------------------
+--- Python Café Receipt ---
+Name: Aaron
+Drink: Coffee - $5
+Entrée: Salad - $15
+Dessert: Cake - $10
+--------------------------
+Subtotal: $30.00
+Tax (10%): $3.00
+Tip (15%): $4.50
+Total: $37.50
+--------------------------
+Thank you for dining with us!
+
+Thank you for dining at Python Café, Aaron! Enjoy your meal!
