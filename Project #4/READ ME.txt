@@ -1,0 +1,84 @@
+🍎 Project: Fitness Tracker & Calorie Buddy
+⏳ Duration: ~2 hours
+👥 Group Size: 4
+🛠 Concepts Used:
+✅ Functions & return values
+✅ Function arguments (positional, keyword, default, *args)
+✅ Variable scope (global vs local)
+✅ Lambda expressions
+✅ Loops & Conditionals
+✅ User input & Validation
+✅ Arithmetic Operators & String Formatting
+
+🧠 Overview
+Build a text-based Fitness Tracker that helps a user log their meals and workouts, calculates their net calories for the day, 
+and gives personalized health feedback. The program must use functions to modularize logic, loops to gather input and 
+validate it, and explore scope and lambdas creatively.
+By the end, your program will:
+Ask the user about their daily meals and exercises
+Calculate net calories (calories consumed minus calories burned)
+Provide fun, emoji-powered feedback
+Display a clean daily summary using formatted strings
+
+🔀 Project Breakdown
+Each student owns one task. Test individually, then integrate.
+Task 1: Input Tracker & Validation
+📌 Goal: Collect and validate the user's meal and workout details
+✅ What to do:
+Define a function get_non_empty_input(prompt) that:
+Uses a while loop to prompt the user for input
+Re-prompts if the user enters a blank string
+Returns the valid input string
+Define a function get_daily_log() that:
+Asks the user for three meals and their calorie intake using the helper function
+Asks for two workouts and the calories burned using the same helper function
+Returns total_intake and total_burn
+
+Task 2: Calorie Math Engine
+📌 Goal: Compute net calorie balance and generate a summary message
+✅ What to do:
+Define a function calculate_net_calories(intake, burn) that:
+Subtracts burn from intake to get net_calories
+Uses a lambda function to create a one-line summary:
+Format: “You consumed X kcal and burned Y kcal. Net: Z kcal.”
+Returns both net_calories and the message string
+
+Task 3: Health Advisor & Feedback Generator
+📌 Goal: Give user-specific feedback based on their net calorie score
+✅ What to do:
+Define a function generate_feedback(net_calories) that:
+Uses conditional statements to check the user's net score:
+Net < -500: “🔥 Super active! Eat more.”
+-500 ≤ Net ≤ 500: “✅ Balanced day!”
+Net > 500: “⚠️ Calorie surplus. Consider exercising.”
+Sets a global variable daily_status to the appropriate feedback
+Returns both the message and an emoji string for display
+
+Task 4: Daily Report Generator
+📌 Goal: Combine all logic and print the final report
+✅ What to do:
+Define a function print_daily_report() that:
+Calls get_daily_log() and stores intake & burn
+Passes values to calculate_net_calories()
+Uses the result to call generate_feedback()
+Prints a complete summary using f-strings:
+Meals consumed (count + total calories)
+Workouts done (count + total burned)
+Net calories and final feedback
+Example Output:
+--- Daily Fitness Summary ---
+Calories Consumed: 1800
+Calories Burned: 600
+Net Calories: 1200
+Feedback: ⚠️ Calorie surplus. Consider exercising.
+-----------------------------
+
+🤝 Collaboration & Integration Guide
+✔ Use consistent naming (e.g., total_intake, net_calories)
+✔ Agree on function signatures and return values
+✔ Avoid lists and use individual variables for each meal and workout
+✔ Each teammate should test their part with dummy values before merging
+
+Happy tracking, team! 🍏 Let me know when you're ready for .py task files and output samples!
+
+

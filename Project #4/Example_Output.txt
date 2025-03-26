@@ -1,0 +1,22 @@
+Welcome to the Fitness Tracker!
+
+🍽️ Let's log your meals!
+Enter the name of meal #1: Breakfast
+How many calories in Breakfast?: 400
+Enter the name of meal #2: Lunch
+How many calories in Lunch?: 700
+Enter the name of meal #3: Dinner
+How many calories in Dinner?: 800
+
+🏃 Now log your workouts!
+Enter workout #1: Running
+How many calories did you burn during Running?: 500
+Enter workout #2: Cycling
+How many calories did you burn during Cycling?: 300
+
+--- Daily Fitness Summary ---
+Calories Consumed: 1900
+Calories Burned: 800
+Net Calories: 1100
+Feedback: ⚠️ Calorie surplus. Consider exercising.
+-----------------------------
