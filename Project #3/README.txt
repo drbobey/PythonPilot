@@ -8,7 +8,7 @@
 🚗 Overview
 Welcome to the Dice-Based Racing Game! In this exciting turn-based game, players will race to the finish line by rolling a virtual die. Each player takes turns rolling, advancing their score based on the result. But beware—random events like speed boosts and penalties can change the outcome of the race in unexpected ways!
 The game continues until one player reaches 20 or more points, at which point they are declared the winner. Players must strategize, roll wisely, and hope luck is on their side as they race toward victory!
-This project is designed to strengthen your understanding of loops, conditional statements, and user input handling in Python, making it a fun and educational challenge for your group.
+This project is designed to strengthen your understanding of loops, conditional statements.
 
 🔀 Task Breakdown
 🔹 Task 1: Game Setup & Player Turn Order
@@ -62,10 +62,7 @@ After every roll, check if a player's score is 20 or higher.
 If a player has reached or exceeded 20, print a victory message.
 Example: 🎉 Sarah wins the race with 21 points!
 If a player wins, exit the game loop immediately.
-Ask if players want to restart the game (loop again) or exit:
-Prompt the user for a yes/no response.
-If they choose to restart, reset all scores and start over.
-Example: Game Over. Play again? (yes/no)
+
 
 🤝 Collaboration & Integration Guide
 ✔ Use separate variables for each player's score (no lists!).
