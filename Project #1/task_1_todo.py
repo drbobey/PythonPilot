@@ -16,3 +16,15 @@ Task 1: User Input & Menu Display
    - Example: "Drinks: Coffee ($5), Tea ($5)..."
 
 """
+
+print("Welcome to Python Café!") 
+
+print("What is your name?")
+nameCustomer   =  input()   
+
+print(f"Hi {nameCustomer} , here is our menu!") 
+
+print("Coffee ($5)" )
+print("Tea ($5)" )
+print("Weed ($5)" )
+print("Alcohol ($5)" )

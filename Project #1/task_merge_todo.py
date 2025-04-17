@@ -18,3 +18,49 @@ Task 5: Merging & Integration
 6. As a team, review and refine the final program to ensure clarity and a smooth user experience.
 
 """
+
+print("Welcome to Python Café!") 
+
+nameCustomer = input("What is your name?")   
+
+print(f"Hi {nameCustomer} , here is our menu!") 
+
+print("Coffee ($5)" )
+print("Tea ($5)" )
+print("Weed ($5)" )
+print("Alcohol ($5)" )
+
+drink=input(f"Hi {nameCustomer}, what would you like for your drink?")
+entrée=input("And what would you like for your entrée?")
+dessert=input("Finally, what would you like for dessert?")
+
+drinkPrice = 5
+entreePrice = 15
+dessertPrice = 10
+
+totalPriceBeforeTax = drinkPrice + entreePrice + dessertPrice
+
+taxValue = 0.1 * totalPriceBeforeTax
+
+tipValue = 0.15 * totalPriceBeforeTax
+
+totalPrice = totalPriceBeforeTax + taxValue + tipValue
+
+output = f"""
+   --- Python Café Receipt ---  
+   Name: ${nameCustomer} 
+   Drink:  ${drink} - $5  
+   Entrée: ${entrée} - $15  
+   Dessert: ${dessert} - $10  
+   --------------------------  
+   Subtotal: ${totalPriceBeforeTax:.2f} 
+   Tax (10%): ${taxValue:.2f} 
+   Tip (15%): ${tipValue:.1f} 
+   Total: ${totalPrice:.2f}
+   --------------------------  
+   Thank you for dining with us!  
+"""
+
+print(f"Customer {nameCustomer}, you ordered {drink}, {entrée}, and {dessert}.")
+print(output)
+print(f"Thank you for dining at Python Café,{nameCustomer}! Enjoy your meal!")
